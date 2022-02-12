@@ -10,7 +10,7 @@ import Foundation
 class T {
     static let template = """
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="3300px" height="2200px" viewBox="0 0 3300 2200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="3300px" height="2200px" viewBox="0 0 3300 2200" version="1.1" creator="http://dovhiy.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>folder.fill</title>
     <desc>Created with Sketch.</desc>

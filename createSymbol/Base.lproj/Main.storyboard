@@ -759,9 +759,39 @@
                                     <action selector="exportPressed:" target="XfG-lQ-9wD" id="iWh-yw-Mh9"/>
                                 </connections>
                             </button>
+                            <stackView hidden="YES" distribution="fillProportionally" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aAO-bm-YuI">
+                                <rect key="frame" x="5" y="5" width="690" height="24"/>
+                                <subviews>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gbg-kI-b7Q">
+                                        <rect key="frame" x="-2" y="0.0" width="49" height="24"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Error" id="5BG-Nw-NPr">
+                                            <font key="font" metaFont="systemMedium" size="20"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n3I-5j-o9R">
+                                        <rect key="frame" x="-2" y="8" width="54" height="16"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" id="2nB-y6-kGI">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="h2r-Dl-ilO" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="5" id="2qf-q1-9mJ"/>
+                            <constraint firstItem="aAO-bm-YuI" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="5" id="9KC-oH-eTy"/>
                             <constraint firstAttribute="trailing" secondItem="h2r-Dl-ilO" secondAttribute="trailing" constant="5" id="9aR-eS-I1a"/>
                             <constraint firstAttribute="trailing" secondItem="Dlx-8P-MK0" secondAttribute="trailing" id="Cgi-hG-N7x"/>
                             <constraint firstItem="Dlx-8P-MK0" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="MMb-Pp-dQP"/>
@@ -770,12 +800,17 @@
                             <constraint firstAttribute="bottom" secondItem="8vx-hr-oY4" secondAttribute="bottom" id="fa3-2F-fDx"/>
                             <constraint firstAttribute="bottom" secondItem="Dlx-8P-MK0" secondAttribute="bottom" id="jCR-ox-hcz"/>
                             <constraint firstItem="8vx-hr-oY4" firstAttribute="top" secondItem="h2r-Dl-ilO" secondAttribute="bottom" id="lLt-EC-7AR"/>
+                            <constraint firstAttribute="trailing" secondItem="aAO-bm-YuI" secondAttribute="trailing" constant="5" id="lyO-fP-suh"/>
                             <constraint firstItem="Dlx-8P-MK0" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="z0G-Eq-94t"/>
+                            <constraint firstAttribute="bottom" secondItem="aAO-bm-YuI" secondAttribute="bottom" constant="5" id="zzP-oP-YFb"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="exportButton" destination="h2r-Dl-ilO" id="0k8-r7-tnb"/>
                         <outlet property="iconButton" destination="a1b-aR-WXa" id="uhB-2l-isz"/>
+                        <outlet property="messageDescriptionLabel" destination="n3I-5j-o9R" id="37v-RH-QbY"/>
+                        <outlet property="messageStackView" destination="aAO-bm-YuI" id="fpG-q6-D6c"/>
+                        <outlet property="messageTitleLabel" destination="Gbg-kI-b7Q" id="2v4-4I-en2"/>
                         <outlet property="webKit" destination="TXI-aw-cGk" id="H9I-gL-Bt2"/>
                     </connections>
                 </viewController>

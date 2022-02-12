@@ -37,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B43265827B876C900D09A63 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5529827B81D1F004D009E /* Globals.swift */,
+				8BB5529A27B82330004D009E /* svgTemplate.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
 		8BB5527D27B7F2DB004D009E = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				8BB5528927B7F2DC004D009E /* AppDelegate.swift */,
+				8B43265827B876C900D09A63 /* Modal */,
 				8BB5528B27B7F2DC004D009E /* ViewController.swift */,
-				8BB5529827B81D1F004D009E /* Globals.swift */,
-				8BB5529A27B82330004D009E /* svgTemplate.swift */,
 				8BB5528F27B7F2DE004D009E /* Main.storyboard */,
 				8BB5528D27B7F2DE004D009E /* Assets.xcassets */,
 				8BB5529227B7F2DE004D009E /* createSymbol.entitlements */,
@@ -281,7 +289,7 @@
 				CODE_SIGN_ENTITLEMENTS = createSymbol/createSymbol.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FQA2XH9ZUM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -310,7 +318,7 @@
 				CODE_SIGN_ENTITLEMENTS = createSymbol/createSymbol.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FQA2XH9ZUM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
