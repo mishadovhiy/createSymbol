@@ -81,8 +81,8 @@ class ViewController: NSViewController {
                         try svgText.write(to: url, atomically: true, encoding: .utf8)
                         
                     } catch {
-                        print("error saving")
-                        self.showMessage(title: "Error saving to selected URL", description: "")
+                      //  print("error saving")
+                      //  self.showMessage(title: "Error saving to selected URL", description: "")
                     }
                 } else {
                     print("error url")
@@ -96,6 +96,7 @@ class ViewController: NSViewController {
             self.showMessage(title: "Nothing to export", description: "Please, select SVG file again")
         }
     }
+    
     @IBAction func addIconPressed(_ sender: NSButton) {
         let dialog = NSOpenPanel();
 

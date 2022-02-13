@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B43265E27B8876700D09A63 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43265D27B8876700D09A63 /* Window.swift */; };
 		8BB5528A27B7F2DC004D009E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5528927B7F2DC004D009E /* AppDelegate.swift */; };
 		8BB5528C27B7F2DC004D009E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5528B27B7F2DC004D009E /* ViewController.swift */; };
 		8BB5528E27B7F2DE004D009E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB5528D27B7F2DE004D009E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B43265D27B8876700D09A63 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		8BB5528627B7F2DC004D009E /* createSymbol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = createSymbol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB5528927B7F2DC004D009E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BB5528B27B7F2DC004D009E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			children = (
 				8BB5529827B81D1F004D009E /* Globals.swift */,
 				8BB5529A27B82330004D009E /* svgTemplate.swift */,
+				8B43265D27B8876700D09A63 /* Window.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB5529B27B82330004D009E /* svgTemplate.swift in Sources */,
+				8B43265E27B8876700D09A63 /* Window.swift in Sources */,
 				8BB5528C27B7F2DC004D009E /* ViewController.swift in Sources */,
 				8BB5528A27B7F2DC004D009E /* AppDelegate.swift in Sources */,
 				8BB5529927B81D1F004D009E /* Globals.swift in Sources */,
